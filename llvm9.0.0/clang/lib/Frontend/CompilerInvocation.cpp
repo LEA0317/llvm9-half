@@ -2249,6 +2249,13 @@ void CompilerInvocation::setLangDefaults(LangOptions &Opts, InputKind IK,
 
   // Enable [[]] attributes in C++11 and C2x by default.
   Opts.DoubleSquareBracketAttributes = Opts.CPlusPlus11 || Opts.C2x;
+
+  // native half
+  {
+    Opts.Half                     = 1;
+    Opts.NativeHalfType           = 1;
+    Opts.NativeHalfArgsAndReturns = 1;
+  }
 }
 
 /// Attempt to parse a visibility value out of the given argument.
