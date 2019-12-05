@@ -584,8 +584,8 @@ ExprResult Sema::DefaultLvalueConversion(Expr *E) {
     return E;
 
   // OpenCL usually rejects direct accesses to values of 'half' type.
-  if (/*getLangOpts().OpenCL && !getOpenCLOptions().isEnabled("cl_khr_fp16") &&
-	T->isHalfType()*/ false) {
+  if (false /*getLangOpts().OpenCL && !getOpenCLOptions().isEnabled("cl_khr_fp16") &&
+	T->isHalfType()*/) {
     Diag(E->getExprLoc(), diag::err_opencl_half_load_store)
       << 0 << T;
     return ExprError();
