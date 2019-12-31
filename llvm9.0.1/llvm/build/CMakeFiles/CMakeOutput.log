@@ -1,0 +1,1522 @@
+The system is: Darwin - 18.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/3.16.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++ 
+Build flags: -DLLVM_ENABLE_DUMP
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/3.16.2/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is AppleClang using "--version" matched "(Apple LLVM version)":
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5c00a && [1/2] Building C object CMakeFiles/cmTC_5c00a.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_5c00a
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3f543 && [1/2] Building C object CMakeFiles/cmTC_3f543.dir/CMakeCCompilerABI.c.o
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3f543.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_3f543.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking C executable cmTC_3f543
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_3f543 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3f543.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/ninja cmTC_3f543 && [1/2] Building C object CMakeFiles/cmTC_3f543.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3f543.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_3f543.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_3f543]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_3f543 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3f543.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3f543] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_3f543.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_92f83 && [1/2] Building CXX object CMakeFiles/cmTC_92f83.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_92f83
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a3bdf && [1/2] Building CXX object CMakeFiles/cmTC_a3bdf.dir/CMakeCXXCompilerABI.cpp.o
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a3bdf.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -D LLVM_ENABLE_DUMP -stdlib=libc++ -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_a3bdf.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking CXX executable cmTC_a3bdf
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_a3bdf -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a3bdf.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/ninja cmTC_a3bdf && [1/2] Building CXX object CMakeFiles/cmTC_a3bdf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a3bdf.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -D LLVM_ENABLE_DUMP -stdlib=libc++ -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_a3bdf.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_a3bdf]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_a3bdf -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a3bdf.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a3bdf] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_a3bdf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ea74a && [1/2] Building C object CMakeFiles/cmTC_ea74a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ea74a
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_95c61 && [1/2] Building C object CMakeFiles/cmTC_95c61.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_95c61
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a3787 && [1/2] Building C object CMakeFiles/cmTC_a3787.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a3787
+
+
+
+Determining if the include file malloc/malloc.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7f087 && [1/2] Building C object CMakeFiles/cmTC_7f087.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7f087
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d8eea && [1/2] Building C object CMakeFiles/cmTC_d8eea.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d8eea
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1dc6f && [1/2] Building C object CMakeFiles/cmTC_1dc6f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1dc6f
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_036fe && [1/2] Building C object CMakeFiles/cmTC_036fe.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_036fe
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a5d5e && [1/2] Building C object CMakeFiles/cmTC_a5d5e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a5d5e
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6d982 && [1/2] Building C object CMakeFiles/cmTC_6d982.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6d982
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e3e14 && [1/2] Building C object CMakeFiles/cmTC_e3e14.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e3e14
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_62c7c && [1/2] Building C object CMakeFiles/cmTC_62c7c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_62c7c
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9a146 && [1/2] Building C object CMakeFiles/cmTC_9a146.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9a146
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_37d8c && [1/2] Building C object CMakeFiles/cmTC_37d8c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_37d8c
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_27466 && [1/2] Building C object CMakeFiles/cmTC_27466.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_27466
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_33589 && [1/2] Building C object CMakeFiles/cmTC_33589.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_33589
+
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d6de6 && [1/2] Building C object CMakeFiles/cmTC_d6de6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d6de6
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0ab74 && [1/2] Building C object CMakeFiles/cmTC_0ab74.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0ab74
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_06b02 && [1/2] Building C object CMakeFiles/cmTC_06b02.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_06b02
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a1b11 && [1/2] Building C object CMakeFiles/cmTC_a1b11.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a1b11
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file mach/mach.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_202db && [1/2] Building C object CMakeFiles/cmTC_202db.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_202db
+
+
+
+Determining if the include file histedit.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a4a60 && [1/2] Building C object CMakeFiles/cmTC_a4a60.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a4a60
+
+
+
+Performing C SOURCE FILE Test HAVE_CRASHREPORTER_INFO succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5a10c && [1/2] Building C object CMakeFiles/cmTC_5a10c.dir/src.c.o
+[2/2] Linking C executable cmTC_5a10c
+
+
+Source file was:
+
+     static const char *__crashreporter_info__ = 0;
+     asm(".desc ___crashreporter_info__, 0x10");
+     int main() { return 0; }
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_49e14 && [1/2] Building C object CMakeFiles/cmTC_49e14.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_49e14
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_66f76 && [1/2] Building C object CMakeFiles/cmTC_66f76.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_66f76
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7f0a3 && [1/2] Building C object CMakeFiles/cmTC_7f0a3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7f0a3
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2d0a2 && [1/2] Building C object CMakeFiles/cmTC_2d0a2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2d0a2
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_13912 && [1/2] Building C object CMakeFiles/cmTC_13912.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_13912
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_10495 && [1/2] Building C object CMakeFiles/cmTC_10495.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_10495
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fc211 && [1/2] Building C object CMakeFiles/cmTC_fc211.dir/src.c.o
+[2/2] Linking C executable cmTC_fc211
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ebb42 && [1/2] Building C object CMakeFiles/cmTC_ebb42.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ebb42
+
+
+
+Determining if the function el_init exists in the edit passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d2774 && [1/2] Building C object CMakeFiles/cmTC_d2774.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d2774
+
+
+
+Determining if the function setupterm exists in the curses passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1a85e && [1/2] Building C object CMakeFiles/cmTC_1a85e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1a85e
+
+
+
+Determining if the function xar_open exists in the xar passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e04b8 && [1/2] Building C object CMakeFiles/cmTC_e04b8.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_e04b8
+
+
+
+Determining if the arc4random exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ebba0 && [1/2] Building C object CMakeFiles/cmTC_ebba0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ebba0
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8167d && [1/2] Building C object CMakeFiles/cmTC_8167d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8167d
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f242a && [1/2] Building C object CMakeFiles/cmTC_f242a.dir/src.c.o
+[2/2] Linking C executable cmTC_f242a
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_da2d7 && [1/2] Building C object CMakeFiles/cmTC_da2d7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_da2d7
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_99a62 && [1/2] Building C object CMakeFiles/cmTC_99a62.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_99a62
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4d2f8 && [1/2] Building C object CMakeFiles/cmTC_4d2f8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4d2f8
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_9a1a4 && [1/2] Building C object CMakeFiles/cmTC_9a1a4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9a1a4
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6a78a && [1/2] Building C object CMakeFiles/cmTC_6a78a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6a78a
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_61e4c && [1/2] Building C object CMakeFiles/cmTC_61e4c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_61e4c
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a2485 && [1/2] Building C object CMakeFiles/cmTC_a2485.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a2485
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b186e && [1/2] Building C object CMakeFiles/cmTC_b186e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b186e
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc_zone_statistics exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ae007 && [1/2] Building C object CMakeFiles/cmTC_ae007.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ae007
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ecdaa && [1/2] Building C object CMakeFiles/cmTC_ecdaa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ecdaa
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fc4dc && [1/2] Building C object CMakeFiles/cmTC_fc4dc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fc4dc
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e9746 && [1/2] Building C object CMakeFiles/cmTC_e9746.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e9746
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e0114 && [1/2] Building C object CMakeFiles/cmTC_e0114.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c:8:19: warning: 'sbrk' is deprecated [-Wdeprecated-declarations]
+  return ((int*)(&sbrk))[argc];
+                  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/unistd.h:585:1: note: 'sbrk' has been explicitly marked deprecated here
+__deprecated __WATCHOS_PROHIBITED __TVOS_PROHIBITED
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/sys/cdefs.h:176:40: note: expanded from macro '__deprecated'
+#define __deprecated    __attribute__((deprecated))
+                                       ^
+1 warning generated.
+[2/2] Linking C executable cmTC_e0114
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_85d5a && [1/2] Building C object CMakeFiles/cmTC_85d5a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_85d5a
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5a461 && [1/2] Building C object CMakeFiles/cmTC_5a461.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5a461
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c0cae && [1/2] Building C object CMakeFiles/cmTC_c0cae.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c0cae
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f38c6 && [1/2] Building C object CMakeFiles/cmTC_f38c6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f38c6
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dladdr exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0c31e && [1/2] Building C object CMakeFiles/cmTC_0c31e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0c31e
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7130c && [1/2] Building C object CMakeFiles/cmTC_7130c.dir/src.c.o
+[2/2] Linking C executable cmTC_7130c
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+  return 0;
+}
+
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_aaab2 && [1/2] Building C object CMakeFiles/cmTC_aaab2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_aaab2
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2d93d && [1/2] Building C object CMakeFiles/cmTC_2d93d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2d93d
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_STD_IS_TRIVIALLY_COPYABLE succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_87f71 && [1/2] Building CXX object CMakeFiles/cmTC_87f71.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_87f71
+
+
+Source file was:
+
+#include <type_traits>
+struct T { int val; };
+static_assert(std::is_trivially_copyable<T>::value, "ok");
+int main() { return 0;}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3699a && [1/2] Building CXX object CMakeFiles/cmTC_3699a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3699a
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+int main() {
+  return x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_89d43 && [1/2] Building CXX object CMakeFiles/cmTC_89d43.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_89d43
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f5a63 && [1/2] Building CXX object CMakeFiles/cmTC_f5a63.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f5a63
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_36081 && [1/2] Building CXX object CMakeFiles/cmTC_36081.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_36081
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_a676f && [1/2] Building CXX object CMakeFiles/cmTC_a676f.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a676f
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e5b1f && [1/2] Building C object CMakeFiles/cmTC_e5b1f.dir/src.c.o
+[2/2] Linking C executable cmTC_e5b1f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_15fc3 && [1/2] Building CXX object CMakeFiles/cmTC_15fc3.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_15fc3
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4975d && [1/2] Building CXX object CMakeFiles/cmTC_4975d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_4975d
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8809e && [1/2] Building C object CMakeFiles/cmTC_8809e.dir/src.c.o
+[2/2] Linking C executable cmTC_8809e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_354b0 && [1/2] Building CXX object CMakeFiles/cmTC_354b0.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_354b0
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_6fbd8 && [1/2] Building CXX object CMakeFiles/cmTC_6fbd8.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_6fbd8
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX_STD succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b6763 && [1/2] Building CXX object CMakeFiles/cmTC_b6763.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_b6763
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e444c && [1/2] Building CXX object CMakeFiles/cmTC_e444c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_e444c
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_25731 && [1/2] Building C object CMakeFiles/cmTC_25731.dir/src.c.o
+[2/2] Linking C executable cmTC_25731
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fff82 && [1/2] Building CXX object CMakeFiles/cmTC_fff82.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_fff82
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_1e785 && [1/2] Building C object CMakeFiles/cmTC_1e785.dir/src.c.o
+[2/2] Linking C executable cmTC_1e785
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5c58e && [1/2] Building CXX object CMakeFiles/cmTC_5c58e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_5c58e
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ccd79 && [1/2] Building CXX object CMakeFiles/cmTC_ccd79.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_ccd79
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_818cc && [1/2] Building CXX object CMakeFiles/cmTC_818cc.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_818cc
+
+
+Source file was:
+class base {public: virtual void anchor();protected: ~base();};
+                               class derived final : public base { public: ~derived();};
+                               int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3532e && [1/2] Building C object CMakeFiles/cmTC_3532e.dir/src.c.o
+[2/2] Linking C executable cmTC_3532e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2ac15 && [1/2] Building CXX object CMakeFiles/cmTC_2ac15.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_2ac15
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_197c4 && [1/2] Building C object CMakeFiles/cmTC_197c4.dir/src.c.o
+[2/2] Linking C executable cmTC_197c4
+
+
+Source file was:
+// \
+//
+int main() {return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f9395 && [1/2] Building C object CMakeFiles/cmTC_f9395.dir/src.c.o
+[2/2] Linking C executable cmTC_f9395
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5bb97 && [1/2] Building CXX object CMakeFiles/cmTC_5bb97.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_5bb97
+
+
+Source file was:
+int main() { return 0; }
+Determining if the os_signpost_interval_begin exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8f139 && [1/2] Building C object CMakeFiles/cmTC_8f139.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8f139
+
+
+File /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <os/signpost.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef os_signpost_interval_begin
+  return ((int*)(&os_signpost_interval_begin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test macos_signposts_usable succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e8586 && [1/2] Building CXX object CMakeFiles/cmTC_e8586.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_e8586
+
+
+Source file was:
+#include <os/signpost.h>
+    int main() { os_signpost_interval_begin(nullptr, 0, "", ""); return 0; }
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c33d2 && [1/2] Building C object CMakeFiles/cmTC_c33d2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c33d2
+
+
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_20e2b && [1/2] Building CXX object CMakeFiles/cmTC_20e2b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_20e2b
+
+
+Source file was:
+int main() { return 0; }
+Determining if files CoreServices/CoreServices.h exist passed with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e67b3 && [1/2] Building C object CMakeFiles/cmTC_e67b3.dir/HAVE_CORESERVICES.c.o
+[2/2] Linking C executable cmTC_e67b3
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d0632 && [1/2] Building CXX object CMakeFiles/cmTC_d0632.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d0632
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c15e0 && [1/2] Building CXX object CMakeFiles/cmTC_c15e0.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c15e0
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_718cb && [1/2] Building CXX object CMakeFiles/cmTC_718cb.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_718cb
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_93df7 && [1/2] Building CXX object CMakeFiles/cmTC_93df7.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_93df7
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_5481d && [1/2] Building CXX object CMakeFiles/cmTC_5481d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_5481d
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b5d03 && [1/2] Building CXX object CMakeFiles/cmTC_b5d03.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_b5d03
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_3a60b && [1/2] Building CXX object CMakeFiles/cmTC_3a60b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3a60b
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e2cb5 && [1/2] Building CXX object CMakeFiles/cmTC_e2cb5.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_e2cb5
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f0143 && [1/2] Building CXX object CMakeFiles/cmTC_f0143.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f0143
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_2b51b && [1/2] Building CXX object CMakeFiles/cmTC_2b51b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_2b51b
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_c2cc1 && [1/2] Building CXX object CMakeFiles/cmTC_c2cc1.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c2cc1
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4da34 && [1/2] Building CXX object CMakeFiles/cmTC_4da34.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_4da34
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /Users/konda/work/my_github/llvm9-half/llvm9.0.1/llvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_bc505 && [1/2] Building CXX object CMakeFiles/cmTC_bc505.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_bc505
+
+
+Source file was:
+int main() { return 0; }
